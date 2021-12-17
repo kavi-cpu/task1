@@ -1,0 +1,29 @@
+ 1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+  HTTP1:
+
+   1. Developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web.
+   2.it uses text command request cycle.
+   3.it loads resource one after the other, so if one source cannot be loaded,it blocks all the other resource behind it.
+   4.A server ony serves content to a client device only if the client ask for it.
+   5.It loads a single request for every TCP connection.
+
+
+  HTTP2:
+
+   1.HTTP2 is more worthy and trustable than HTTP1 request response cycle.
+   2.Can snt multiple request for data in parallel for data in parallel over single TCP connection.
+   3.eficient and robust in terms of processing of data between client and server.
+
+  2.Write a blog about objects and its internal representation in Javascript
+
+   1. objects are more complex and they contain any combination of primitive data type and reference data type.
+   2.object may contain numbers,strings, array etc. 
+   3. for example :- let student ={
+                                   name ='kavi kumar', 
+                                   age= 23,
+                                   id no = 9715
+                                   }
+
+  
+          
